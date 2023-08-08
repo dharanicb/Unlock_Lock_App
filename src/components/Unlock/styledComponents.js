@@ -11,7 +11,7 @@ export const MainContainer = styled.div`
   align-items: center;
 `
 
-export const Content = styled.h1`
+export const Content = styled.p`
   color: #e2e8f0;
   font-family: 'Roboto';
   font-size: 30px;

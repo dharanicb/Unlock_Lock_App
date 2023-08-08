@@ -3,7 +3,7 @@ import {useState} from 'react'
 import {MainContainer, Content, LockImage, ButtonText} from './styledComponents'
 
 const Unlock = () => {
-  const [locked, setLocked] = useState(false)
+  const [locked, setLocked] = useState(true)
 
   const lockOrUnlocked = locked
     ? 'https://assets.ccbp.in/frontend/hooks/lock-img.png'
